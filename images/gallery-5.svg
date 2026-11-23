@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3cfe2"/>
+      <stop offset="1" stop-color="#f5f7fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#g5)"/>
+  <g fill="#ffffff">
+    <circle cx="100" cy="90" r="30"/><circle cx="150" cy="70" r="40"/><circle cx="210" cy="95" r="28"/>
+  </g>
+  <path d="M0 240l120-110 110 100 120-130 130 140v120H0z" fill="#7f8fa6"/>
+  <path d="M0 270l150-90 130 100 90-70 110 80v70H0z" fill="#5f6d7a"/>
+  <text x="240" y="345" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffffff">雪后初晴</text>
+</svg>

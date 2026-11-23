@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs><linearGradient id="h3" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4facfe"/><stop offset="1" stop-color="#00f2fe"/>
+  </linearGradient></defs>
+  <rect width="400" height="300" fill="url(#h3)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" opacity="0.9">
+    <circle cx="200" cy="150" r="70"/><circle cx="200" cy="150" r="35"/>
+    <path d="M200 60v30M200 210v30M110 150h30M260 150h30"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#ffffff">阅读</text>
+</svg>
