@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>项目展示 - 我的主页</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 头部导航 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">My<span>Homepage</span></div>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">我的首页</a></li>
+          <li><a href="projects.html">项目展示</a></li>
+          <li><a href="journal.html">我的日志</a></li>
+          <li><a href="gallery.html">我的相册</a></li>
+          <li><a href="hobby.html">我的爱好</a></li>
+          <li><a href="contact.html">与我联系</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" title="切换深浅色主题">🌙</button>
+    </div>
+  </header>
+
+  <!-- 主体内容 -->
+  <main class="container">
+    <h1 class="page-title reveal">项目展示</h1>
+    <p class="page-subtitle reveal">课程设计与个人练习作品，点击卡片查看项目详情</p>
+
+    <div class="project-grid reveal">
+
+      <div class="project-card"
+           data-img="images/project-1.jpg"
+           data-title="校园二手交易平台"
+           data-meta="课程设计 · 2025 · 个人独立完成"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/secondhand"
+           data-detail="本项目面向校园用户，解决毕业生闲置物品处理难、在校生购买二手教材与日用品不方便的痛点。平台以“轻量、易用”为设计原则，首页采用卡片式网格展示商品，用户可按教材、自行车、台灯、耳机等类别快速筛选。"
+           data-detail2="功能上实现了商品分类浏览、关键词搜索、详情预览、收藏标记与发布入口等模块。技术上全部使用原生 HTML+CSS+JavaScript 完成，采用响应式布局适配手机与电脑；交互部分通过 DOM 事件监听实现筛选与卡片动态渲染。"
+           data-detail3="项目收获：锻炼了从需求分析到页面实现的完整流程能力，尤其加深了对 CSS 网格布局和 JavaScript 数组渲染列表的理解，也学会了站在用户角度思考界面是否好用。">
+        <img src="images/project-1.jpg" alt="校园二手交易平台">
+        <div class="body">
+          <h3>校园二手交易平台 <span class="arrow">&#8594;</span></h3>
+          <p>面向校园的二手商品信息展示网站，支持分类筛选与商品预览。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card"
+           data-img="images/project-2.jpg"
+           data-title="个人博客网站"
+           data-meta="个人项目 · 2025 · 个人独立完成"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/myblog"
+           data-detail="一个用于记录学习、生活与长期思考的个人博客站点。首页以大幅头图配合简短介绍，提供一个清晰的入口引导读者“开始阅读”，整体风格温暖简洁，突出内容本身。"
+           data-detail2="页面包含首页、文章列表、归档、标签、关于等栏目，顶部导航固定，搜索与菜单按钮一应俱全。文章区域采用左侧正文＋右侧分类栏的经典布局，通过 CSS 控制排版与留白，阅读体验舒适。"
+           data-detail3="项目收获：重点练习了 div+css 页面布局与文字排版，理解了导航栏固定、两栏布局等常见网页结构，也体会到统一配色和字体对站点整体质感的重要性。">
+        <img src="images/project-2.jpg" alt="个人博客网站">
+        <div class="body">
+          <h3>个人博客网站 <span class="arrow">&#8594;</span></h3>
+          <p>简洁的个人博客页面，包含文章列表、分类侧栏与内容排版。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card"
+           data-img="images/project-3.jpg"
+           data-title="在线相册展示系统"
+           data-meta="课程设计 · 2024 · 个人独立完成"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/onlinealbum"
+           data-detail="一个类似云相册的照片管理系统，采用左侧导航栏＋主内容区的后台式布局。用户可以浏览照片墙、按时间或地点检索、收藏喜欢的照片，并在右侧面板查看单张照片的拍摄信息与分享链接。"
+           data-detail2="核心功能是照片网格展示与灯箱预览：点击任意缩略图即可弹出大图，配合左右切换浏览。页面还包含搜索框、上传按钮、收藏夹、回收站等模块，分页控件用于浏览大量照片。"
+           data-detail3="项目收获：通过这个项目掌握了 DOM 事件监听、动态样式切换和弹窗交互的实现方式，也学习了后台管理类界面的信息架构，认识到清晰导航对复杂系统的重要性。">
+        <img src="images/project-3.jpg" alt="在线相册展示系统">
+        <div class="body">
+          <h3>在线相册展示系统 <span class="arrow">&#8594;</span></h3>
+          <p>网格布局图片展示网站，点击图片可弹出大图灯箱预览。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card"
+           data-img="images/project-4.svg"
+           data-title="天气查询小应用"
+           data-meta="个人练习 · 2024 · 个人独立完成"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/weather"
+           data-detail="一个轻量级的天气查询界面，用户可以在搜索框输入城市名称，查看当前温度、天气状况与未来几天的简要预报。界面以渐变色背景配合大号温度数字，信息一目了然。"
+           data-detail2="通过 JavaScript 实现了城市切换、天气数据模拟更新与界面重绘：选择不同城市时，温度、天气图标和背景色会随之变化，模拟真实天气应用的数据交互过程。"
+           data-detail3="项目收获：练习了 JavaScript 操作 DOM 与事件处理的基本方法，理解了“数据驱动界面”的思想，为后续学习框架打下基础。">
+        <img src="images/project-4.svg" alt="天气查询小应用">
+        <div class="body">
+          <h3>天气查询小应用 <span class="arrow">&#8594;</span></h3>
+          <p>模拟天气查询界面，支持城市切换与天气信息动态更新。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card"
+           data-img="images/project-5.jpg"
+           data-title="企业官网首页"
+           data-meta="团队协作 · 2024 · 小组项目"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/company"
+           data-detail="为企业设计的品牌宣传网站首页，主题是“数字化增长解决方案”。顶部为全幅深蓝色横幅，左侧是主标题与行动按钮，右侧配以数据看板与增长趋势的立体插画，视觉冲击力强。"
+           data-detail2="页面包含顶部导航、主视觉横幅、产品服务、解决方案、客户案例、关于我们与联系我们等完整栏目。我在小组中负责页面布局与样式统一，确保各模块间距、配色、字体风格一致。"
+           data-detail3="项目收获：第一次体验团队协作开发，学会了与其他成员沟通接口与样式规范，深刻认识到统一代码风格和命名约定的重要性，也提升了对大型页面结构的把控能力。">
+        <img src="images/project-5.jpg" alt="企业官网首页">
+        <div class="body">
+          <h3>企业官网首页 <span class="arrow">&#8594;</span></h3>
+          <p>企业宣传网站首页，含横幅、介绍与服务展示，小组协作完成。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">团队协作</span>
+        </div>
+      </div>
+
+      <div class="project-card"
+           data-img="images/project-6.jpg"
+           data-title="任务管理待办清单"
+           data-meta="个人练习 · 2024 · 个人独立完成"
+           data-tech="HTML、CSS、JavaScript"
+           data-url="https://example.com/projects/todolist"
+           data-detail="一个简洁高效的个人任务管理工具，左侧为任务分类导航（今日待办、进行中、已完成、项目协作），中间是待办列表，右侧提供轻量看板与今日进度环形图，帮助用户掌握任务完成情况。"
+           data-detail2="支持任务的添加、勾选完成、删除与分类筛选，每条任务可显示截止日期与标签。通过 JavaScript 动态创建列表项并更新进度统计，实现了数据变化到界面刷新的完整交互。"
+           data-detail3="项目收获：熟练掌握了 DOM 节点的动态增删和状态管理，理解了列表类应用的数据组织方式，也学会了用百分比进度等可视化元素提升界面的信息表达力。">
+        <img src="images/project-6.jpg" alt="任务管理待办清单">
+        <div class="body">
+          <h3>任务管理待办清单 <span class="arrow">&#8594;</span></h3>
+          <p>待办事项管理小应用，支持任务添加、完成勾选与删除。</p>
+          <span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- 项目详情弹窗 -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img class="modal-img" src="" alt="项目预览">
+      <h2 class="modal-title"></h2>
+      <div class="meta modal-meta"></div>
+      <h3 class="modal-subtitle">项目概述</h3>
+      <p class="modal-desc"></p>
+      <h3 class="modal-subtitle">功能与实现</h3>
+      <p class="modal-desc2"></p>
+      <h3 class="modal-subtitle">项目收获</h3>
+      <p class="modal-desc3"></p>
+      <p class="modal-tech" style="color:var(--accent); font-weight:600;"></p>
+      <p class="modal-url-line">项目链接：<a class="modal-link" href="#" onclick="return false;"></a></p>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>&copy; 2026 孔德鹏的个人求职主页 | <a href="contact.html">与我联系</a></p>
+  </footer>
+
+  <!-- 回到顶部 -->
+  <button id="backToTop" title="回到顶部">&#8593;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

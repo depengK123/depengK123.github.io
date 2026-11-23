@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的相册 - 我的主页</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 头部导航 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">My<span>Homepage</span></div>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">我的首页</a></li>
+          <li><a href="projects.html">项目展示</a></li>
+          <li><a href="journal.html">我的日志</a></li>
+          <li><a href="gallery.html">我的相册</a></li>
+          <li><a href="hobby.html">我的爱好</a></li>
+          <li><a href="contact.html">与我联系</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" title="切换深浅色主题">🌙</button>
+    </div>
+  </header>
+
+  <!-- 主体内容 -->
+  <main class="container">
+    <h1 class="page-title reveal">我的相册</h1>
+    <p class="page-subtitle reveal">点击任意图片可放大预览</p>
+
+    <div class="gallery-grid reveal">
+      <div class="gallery-item">
+        <img src="images/gallery-1.jpg" alt="海边落日">
+        <div class="caption">海边落日</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-2.jpg" alt="山野徒步">
+        <div class="caption">山野徒步</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-3.jpg" alt="城市夜景">
+        <div class="caption">城市夜景</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-4.jpg" alt="晨光 café">
+        <div class="caption">晨光 café</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-5.jpg" alt="雪后初晴">
+        <div class="caption">雪后初晴</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-6.jpg" alt="春日花海">
+        <div class="caption">春日花海</div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- 灯箱 -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img src="" alt="预览图片">
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>&copy; 2026 孔德鹏的个人求职主页 | <a href="contact.html">与我联系</a></p>
+  </footer>
+
+  <!-- 回到顶部 -->
+  <button id="backToTop" title="回到顶部">&#8593;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

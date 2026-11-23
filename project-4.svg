@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <defs><linearGradient id="p4" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd194"/><stop offset="1" stop-color="#70e1f5"/>
+  </linearGradient></defs>
+  <rect width="480" height="320" fill="url(#p4)"/>
+  <rect x="40" y="34" width="400" height="252" rx="14" fill="#ffffff" opacity="0.92"/>
+  <text x="240" y="72" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#2c3e50">天气查询小应用</text>
+  <circle cx="240" cy="150" r="42" fill="#ffd54f"/>
+  <text x="240" y="258" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#2c3e50">26°C　晴</text>
+  <g fill="#90a4ae"><rect x="90" y="88" width="70" height="10" rx="4"/><rect x="320" y="88" width="70" height="10" rx="4"/></g>
+  <text x="240" y="312" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#2c3e50">个人练习 · 2024</text>
+</svg>

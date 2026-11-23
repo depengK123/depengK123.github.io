@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd3a5"/>
+      <stop offset="1" stop-color="#fd6585"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#g4)"/>
+  <circle cx="240" cy="150" r="80" fill="#fff6d5" opacity="0.9"/>
+  <path d="M0 280l140-90 100 60 100-70 140 90v90H0z" fill="#e66767" opacity="0.8"/>
+  <text x="240" y="340" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffffff">晨光 café</text>
+</svg>
